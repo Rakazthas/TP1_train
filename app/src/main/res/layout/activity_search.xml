@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SearchActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/search_msg"/>
+
+    <TableLayout style="@style/frag1TableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableRow style="@style/frag1HeaderTableRow">
+            <TextView style="@style/frag1HeaderCol"
+                android:text="@string/col1"/>
+            <TextView style="@style/frag1HeaderCol"
+                android:text="@string/col2"/>
+            <TextView style="@style/frag1HeaderCol"
+                android:text="@string/col3"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/return_button"
+        android:text="@string/cancel_button"
+        android:onClick="cancel"/>
+
+</LinearLayout>

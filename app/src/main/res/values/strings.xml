@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Itineraire</string>
+    <string name="choix1">Ville de depart : </string>
+    <string name="choix2">Ville d\'arrivee : </string>
+    <string name="search_button">Rechercher</string>
+
+    <string name="col1">Heure depart</string>
+    <string name="col2">Heure arrivee</string>
+    <string name="col3">Tarif</string>
+    <string name="cancel_button">Retour</string>
+
+    <string name="msg_1">Recherche des trajets de </string>
+    <string name="msg_2"> vers </string>
+</resources>
